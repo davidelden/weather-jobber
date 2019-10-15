@@ -1,0 +1,25 @@
+{
+  "name": "weather-jobber",
+  "version": "1.0.0",
+  "description": "Weather jobber microservice to send fetch weather messages to Redis stream",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "export NODE_ENV=development; node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-davidelden:davidelden/weather-jobber.git"
+  },
+  "keywords": [
+    "weather",
+    "api",
+    "aws",
+    "sns",
+    "sms",
+    "jobber"
+  ],
+  "author": "David Elden",
+  "license": "MIT"
+}
