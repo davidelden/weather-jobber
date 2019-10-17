@@ -1,0 +1,30 @@
+version: 1.4
+# Adjust all time settings. Currently set up for testing purposes.
+jobs:
+  FetchUSEasternWeather:
+    cmd: sh /opt/node_app/app/src/scripts/eastern.sh
+    time: '*/10'
+
+  FetchUSCentralWeather:
+    cmd: sh /opt/node_app/app/src/scripts/central.sh
+    time: '*/20'
+
+  FetchUSMountainWeather:
+    cmd: sh /opt/node_app/app/src/scripts/mountain.sh
+    time: '*/30'
+
+  FetchUSArizonaWeather:
+    cmd: sh /opt/node_app/app/src/scripts/arizona.sh
+    time: '*/10'
+
+  FetchUSPacificWeather:
+    cmd: sh /opt/node_app/app/src/scripts/pacific.sh
+    time: '*/20'
+
+  FetchUSAlaskaWeather:
+    cmd: sh /opt/node_app/app/src/scripts/alaska.sh
+    time: '*/30'
+
+  FetchUSHawaiiWeather:
+    cmd: sh /opt/node_app/app/src/scripts/hawaii.sh
+    time: '*/10'
