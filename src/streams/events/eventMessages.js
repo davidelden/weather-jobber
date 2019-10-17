@@ -1,11 +1,11 @@
 const eventMessages = {
-  eastern: ['message', '7AM-USEastern'],
-  central: ['message', '7AM-USCentral'],
-  mountain: ['message', '7AM-USMountain'],
-  arizona: ['message', '7AM-Arizona'],
-  pacific: ['message', '7AM-USPacific'],
-  alaska: ['message', '7AM-USAlaska'],
-  hawaii: ['message', '7AM-USHawaii']
+  eastern: ['message', 'FetchUSEasternWeather'],
+  central: ['message', 'FetchUSCentralWeather'],
+  mountain: ['message', 'FetchUSMountainWeather'],
+  arizona: ['message', 'FetchUSArizonaWeather'],
+  pacific: ['message', 'FetchUSPacificWeather'],
+  alaska: ['message', 'FetchUSAlaskaWeather'],
+  hawaii: ['message', 'FetchUSHawaiiWeather']
 }
 
 module.exports = eventMessages;
