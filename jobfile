@@ -1,0 +1,29 @@
+version: 1.4
+jobs:
+  FetchUSEasternWeather:
+    cmd: sh /opt/node_app/app/src/scripts/eastern.sh
+    time: 0 0 6
+
+  FetchUSCentralWeather:
+    cmd: sh /opt/node_app/app/src/scripts/central.sh
+    time: 0 0 7
+
+  FetchUSMountainWeather:
+    cmd: sh /opt/node_app/app/src/scripts/mountain.sh
+    time: 0 0 8
+
+  FetchUSArizonaWeather:
+    cmd: sh /opt/node_app/app/src/scripts/arizona.sh
+    time: 0 0 8
+
+  FetchUSPacificWeather:
+    cmd: sh /opt/node_app/app/src/scripts/pacific.sh
+    time: 0 0 9
+
+  FetchUSAlaskaWeather:
+    cmd: sh /opt/node_app/app/src/scripts/alaska.sh
+    time: 0 0 10
+
+  FetchUSHawaiiWeather:
+    cmd: sh /opt/node_app/app/src/scripts/hawaii.sh
+    time: 0 0 11
