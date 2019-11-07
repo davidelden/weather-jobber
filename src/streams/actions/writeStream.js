@@ -10,6 +10,7 @@ const writeStream = (streamName, msgArr) => {
     }
     console.log('Res:', res);
   });
+  client.quit();
 }
 
 module.exports = writeStream;
